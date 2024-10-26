@@ -47,7 +47,11 @@
 //   return result;
 // };
 
-let add = (num1, num2) => {
-  const result = num1 + num2;
-  return result;
-};
+// let add = (num1, num2) => {
+//   const result = num1 + num2;
+//   return result;
+// };
+
+/**
+ * 함수 표현식
+ */
