@@ -69,3 +69,9 @@ const item3 = new Item("지갑", 9000);
 console.log(item1, item2, item3);
 
 item3.showPrice();
+
+/**
+ * 결론
+ * 생성자 함수는 new를 꼭 붙여줄것
+ * 생성자는 앞글자 대문자가 관례
+ */
