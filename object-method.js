@@ -53,11 +53,17 @@
  * 작성하지 않는게 좋다
  * 화살표 함수로 작성하게되면 지역객체가 아닌 전역객체를 찾기 때문
  */
-let boy = {
-  name: "Mike",
-  sayThis: function () {
-    console.log(this);
-  },
-};
+// let boy = {
+//   name: "Mike",
+//   sayThis: function () { // () => {} 이렇게하면 안됨 43-44줄 참고
+//     console.log(this);
+//   },
+// };
 
-boy.sayThis();
+// boy.sayThis();
+
+/**
+ * 결론
+ * 메소드를 작성할 때 this를 사용해서 객체에 접근해야 한다면
+ * 화살표 함수는 이용하지 않는게 좋다
+ */
