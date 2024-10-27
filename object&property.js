@@ -203,6 +203,7 @@ const user4 = Object.values(user);
 
 /**
  * 키 값 쌍으로 배열로 뽑아먹기
+ * 배열 안에 키/값 쌍으로 이루어진 배열을 배열로 감싼 배열이 생김
  */
 const user5 = Object.entries(user);
 // console.log(user5);
@@ -214,5 +215,6 @@ const user5 = Object.entries(user);
 /**
  * 배열 -> 객체로 만들기
  */
-const user6 = Object.fromEntries(user5);
+const user6 = Object.fromEntries(user5); // user5가 배열로 만들었으니까 이걸 갖다씀
 console.log(user6);
+// { name: 'Mike', age: 30 }
