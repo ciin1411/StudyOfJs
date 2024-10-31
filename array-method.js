@@ -256,3 +256,5 @@ let result = userList.reduce((prev, cur) => {
 }, []);
 
 console.log(result); // [ 'Mike', 'Jane', 'Sue', 'Harry', 'Steve' ]
+
+// map, filter, reduce, forEach중 어떤걸 어떤 상황에 쓸지는 실력의 차이임
