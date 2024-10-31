@@ -14,8 +14,10 @@
  * new 연산자를 이용해 호출
  */
 // function User(name, age) {
+//   // this = {};  // new를 사용했을때 실행되는 보이지 않는 코드
 //   this.name = name;
 //   this.age = age;
+//   // return this;  // this를 return하지 않아도 new로 객체를 만들어서 return
 // }
 
 // let user1 = new User("Mike", 30);
