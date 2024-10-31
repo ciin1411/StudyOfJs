@@ -83,4 +83,4 @@
 let user = { name: "Mike", age: 30 };
 // let { name, age, gender } = user; // gender는 undefined됨
 
-let { name, age, gender = "male" } = user; // 기본값을 설정
+let { name, age, gender = "male" } = user; // 기본값을 설정, undefined일때만 기본값이 사용됨
