@@ -88,6 +88,7 @@ const tom = new User("Tom", 19);
 
 /**
  * 생성자 오버라이딩
+ * 자식이 부모의 constructor를 super()로 호출해야함
  */
 class Car {
   constructor(color, wheels) {
@@ -104,10 +105,10 @@ class Car {
 
 class Bmw extends Car {
   constructor() {
+    super(); // Car의 constructor()를 실행 안그러면 레퍼런스 에러발생
     this.navigation = 1;
   }
   park() {
     console.log("PARK");
   }
 }
-const z4 = new Bmw("blue");
